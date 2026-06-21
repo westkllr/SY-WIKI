@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d//**)"
+    ],
+    "additionalDirectories": [
+      "d:\\00_Ŭ�ε� ����������Ʈ\\raw"
+    ]
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "6322c3f1cb902cc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "8bac82c8fbf9f311",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "682c33f448a64d65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a3996d7f755c6282",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f8a630149502b4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "968b29bc4b3b13bc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "3d328940dc805259",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "c440a59e63eef8b9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bc6af453b6d6bc2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bac32076e456dc1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c56f89c942d4138",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CLAUDE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "CLAUDE 의 백링크"
+            }
+          },
+          {
+            "id": "68d278cb93b34b54",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CLAUDE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "CLAUDE 의 나가는 링크"
+            }
+          },
+          {
+            "id": "9fe95b307d4dcab4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "d3d5a7f754d68d7d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "b051d85de870e4ff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CLAUDE.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "CLAUDE 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "682c33f448a64d65",
+  "lastOpenFiles": [
+    "index.md",
+    "log.md",
+    "raw-wiki prompt.md",
+    "CLAUDE.md",
+    "log.md.tmp.33212.af05a749ff4a",
+    "CLAUDE.md.tmp.33212.d3138a07b295",
+    "wiki/research-ideas",
+    "wiki/venues",
+    "wiki/authors",
+    "wiki/papers",
+    "raw/papers",
+    "index.md.tmp.33212.a75a0821d58e",
+    "log.md.tmp.48924.7e2e86e16fd5",
+    "index.md.tmp.48924.8defb7bb45f1",
+    "wiki/entities/obsidian.md",
+    "wiki/entities/vannevar-bush.md",
+    "wiki/concepts/memex.md",
+    "wiki/concepts/rag.md",
+    "wiki/concepts/raw-wiki-pattern.md",
+    "wiki/sources/raw-wiki-prompt.md"
+  ]
+}
