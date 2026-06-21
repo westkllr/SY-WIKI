@@ -1,5 +1,11 @@
 # Research Wiki Log
 
+## [2026-06-21] restructure | Wiki 3-domain structure (research / teaching / projects)
+- wiki/ reorganized: existing pages moved to wiki/research/
+- New domains: wiki/teaching/ (GitHub 동기화), wiki/projects/ (로컬 전용 — 기밀)
+- .gitignore 추가: wiki/projects/ 제외
+- CLAUDE.md 업데이트: Teaching(op 7), Industry Project(op 8) 워크플로우 추가
+
 ## [2026-06-21] ingest | Partitioning techniques for non-centralized predictive control (Riccardi et al. 2026)
 - Paper page: wiki/papers/riccardi-2026-noncentralized-mpc-partitioning.md
 - Pages updated: index.md

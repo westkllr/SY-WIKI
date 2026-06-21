@@ -11,14 +11,10 @@
             "id": "682c33f448a64d65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLAUDE.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "새 탭"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLAUDE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "CLAUDE 의 백링크"
+              "title": "백링크"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLAUDE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "CLAUDE 의 나가는 링크"
+              "title": "나가는 링크"
             }
           },
           {
@@ -156,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "wiki/research-ideas/adaptive-partitioning-ev-chassis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CLAUDE 의 개요"
+              "title": "adaptive-partitioning-ev-chassis 의 개요"
             }
           }
         ]
@@ -183,28 +177,33 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "682c33f448a64d65",
+  "active": "968b29bc4b3b13bc",
   "lastOpenFiles": [
-    "log.md.tmp.33212.9b35012d1971",
-    "index.md.tmp.33212.bcc8706c0d72",
+    "index.md.tmp.33212.c92af55a29c3",
+    "CLAUDE.md.tmp.33212.aaa621710292",
+    "CLAUDE.md.tmp.33212.4d78249e16a1",
+    "CLAUDE.md.tmp.33212.5d135b5f333e",
+    "CLAUDE.md.tmp.33212.02e44dbe6593",
+    "CLAUDE.md.tmp.33212.1f3f9a825294",
+    "CLAUDE.md.tmp.33212.9c8ac8c05e4f",
+    "CLAUDE.md.tmp.33212.a3d5e6a987f2",
+    "wiki/research/research-ideas/data-driven-partitioning-energy-management.md",
+    "wiki/research/research-ideas/adaptive-partitioning-ev-chassis.md",
+    "wiki/research/concepts/graph-partitioning-control.md",
+    "wiki/research/concepts/noncentralized-mpc.md",
+    "wiki/research/papers/riccardi-2026-noncentralized-mpc-partitioning.md",
     "wiki/research-ideas/data-driven-partitioning-energy-management.md",
-    "wiki/research-ideas/data-driven-partitioning-energy-management.md.tmp.33212.2e1c720573cc",
     "wiki/research-ideas/adaptive-partitioning-ev-chassis.md",
-    "wiki/research-ideas/adaptive-partitioning-ev-chassis.md.tmp.33212.2d449502c252",
-    "wiki/concepts/graph-partitioning-control.md",
-    "wiki/concepts/graph-partitioning-control.md.tmp.33212.fa6e53dc5163",
-    "wiki/concepts/noncentralized-mpc.md",
-    "wiki/concepts/noncentralized-mpc.md.tmp.33212.3cb32e7effab",
+    "wiki/research-ideas",
     "wiki/papers/riccardi-2026-noncentralized-mpc-partitioning.md",
-    "wiki/papers/riccardi-2026-noncentralized-mpc-partitioning.md.tmp.33212.fef3bbdf06d4",
-    "raw/papers/1-s2.0-S1367578826000027-main.pdf",
-    "raw/papers/2026ARC_Riccardi.pdf",
+    "wiki/papers",
+    "wiki/concepts/noncentralized-mpc.md",
+    "wiki/concepts/graph-partitioning-control.md",
+    "wiki/concepts",
     "CLAUDE.md",
-    "raw/papers/1-s2.0-S1367578826000027-main.pdf.crdownload",
     "index.md",
     "log.md",
     "raw-wiki prompt.md",
-    "log.md.tmp.33212.af05a749ff4a",
     "wiki/entities/obsidian.md",
     "wiki/entities/vannevar-bush.md",
     "wiki/concepts/memex.md",

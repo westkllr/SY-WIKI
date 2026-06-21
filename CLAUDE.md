@@ -13,17 +13,32 @@ d:\00_클로드 연구에이전트\
 │   ├── papers/           # PDF or markdown source files (immutable — never modify)
 │   └── assets/           # Downloaded images
 ├── wiki/
-│   ├── papers/           # One summary page per ingested paper
-│   ├── concepts/         # Technical concepts, methods, frameworks
-│   ├── topics/           # Research area overview pages
-│   ├── authors/          # Key researchers in the field
-│   ├── venues/           # Journals and conferences
-│   ├── research-ideas/   # Potential research directions and paper ideas
-│   └── outputs/          # Comparison tables, syntheses, weekly digests
+│   ├── research/         # Academic research knowledge base (synced to GitHub)
+│   │   ├── papers/           # One summary page per ingested paper
+│   │   ├── concepts/         # Technical concepts, methods, frameworks
+│   │   ├── topics/           # Research area overview pages
+│   │   ├── authors/          # Key researchers in the field
+│   │   ├── venues/           # Journals and conferences
+│   │   ├── research-ideas/   # Potential research directions and paper ideas
+│   │   └── outputs/          # Comparison tables, syntheses, weekly digests
+│   ├── teaching/         # Lecture and course materials (synced to GitHub)
+│   │   ├── courses/          # Course syllabi and outlines
+│   │   ├── lecture-notes/    # Topic-specific notes
+│   │   └── reading-lists/    # Paper/material lists per course or topic
+│   └── projects/         # Industry contract work — LOCAL ONLY, never pushed to GitHub
+│       ├── active/           # Ongoing contracts (현대차, 한국타이어, etc.)
+│       ├── deliverables/     # Reports, milestones, client-facing outputs
+│       └── findings/         # Technical insights from contract work
+├── .gitignore            # Excludes wiki/projects/ from GitHub
 ├── index.md              # Content catalog — update on every operation
 ├── log.md                # Append-only operation log
 └── CLAUDE.md             # This file
 ```
+
+**Domain ownership:**
+- `wiki/research/` — academic paper tracking, concept building, research ideas. Automated arXiv scanning applies here.
+- `wiki/teaching/` — course materials, reading lists, lecture preparation.
+- `wiki/projects/` — industry contracts (기밀). Never committed to git. All operations here are local only.
 
 ## Research Profile
 
@@ -61,7 +76,7 @@ Primary (cs.SY, eess.SY categories):
 
 ## Page Formats
 
-### Paper Page (`wiki/papers/`)
+### Paper Page (`wiki/research/papers/`)
 
 ```yaml
 ---
@@ -89,7 +104,7 @@ Sections:
 - **Connections** (wikilinks to related papers, concepts, authors, topics)
 - **Notable Quotes / Figures**
 
-### Concept Page (`wiki/concepts/`)
+### Concept Page (`wiki/research/concepts/`)
 
 ```yaml
 ---
@@ -101,7 +116,7 @@ last_updated: YYYY-MM-DD
 ---
 ```
 
-### Research Idea Page (`wiki/research-ideas/`)
+### Research Idea Page (`wiki/research/research-ideas/`)
 
 ```yaml
 ---
@@ -147,25 +162,47 @@ When the user asks to ingest a paper:
 
 1. **Read** the source from `raw/papers/` (or from the user's pasted text / URL if no file).
 2. **Discuss**: What are the 2-3 most important contributions? What is surprising or contradictory? What does this change in the research landscape?
-3. **Write** the paper page in `wiki/papers/` following the paper page format above. Always include the **Research Ideas** section — extract at least 2 concrete follow-on directions.
+3. **Write** the paper page in `wiki/research/papers/` following the paper page format above. Always include the **Research Ideas** section — extract at least 2 concrete follow-on directions.
 4. **Scan** existing wiki pages for connections:
    - Update related topic, concept, and author pages
    - Add cross-references
    - Flag contradictions with `> [!warning] Contradiction with [[other-page]]`
    - Strengthen synthesis where this paper confirms existing claims
-5. **Create** missing concept, author, or topic pages introduced by this paper.
-6. **Check** `wiki/research-ideas/` — does this paper make any existing idea more feasible or less novel? Update accordingly.
+5. **Create** missing concept, author, or topic pages under `wiki/research/concepts/`, `wiki/research/authors/`, `wiki/research/topics/`.
+6. **Check** `wiki/research/research-ideas/` — does this paper make any existing idea more feasible or less novel? Update accordingly.
 7. **Update** `index.md`.
 8. **Append** to `log.md`:
    ```
    ## [YYYY-MM-DD] ingest | Paper Title
-   - Paper page: wiki/papers/filename.md
+   - Paper page: wiki/research/papers/filename.md
    - Pages updated: list
    - Pages created: list
    - Research ideas generated: list titles
    - Key insight: one sentence
    ```
 9. **Report**: what was ingested, what changed, any contradictions, research ideas generated.
+
+### 7. Teaching Page
+
+When the user asks to record lecture materials, course info, or a reading list:
+
+1. For a new course: create `wiki/teaching/courses/course-name.md` with course code, objectives, weekly topics, and a reading list.
+2. For a lecture note: create `wiki/teaching/lecture-notes/topic-name.md` linking to relevant `[[wiki/research/concepts]]` pages.
+3. For a reading list: create `wiki/teaching/reading-lists/topic-name.md` — link to paper pages in `wiki/research/papers/` where they exist.
+4. Update `index.md` under Teaching section.
+5. Append to `log.md`.
+
+### 8. Industry Project Page
+
+When the user asks to record an industry contract or project:
+
+1. Create or update `wiki/projects/active/project-name.md` — include: client, scope, period, key deliverables, status.
+2. Meeting notes: add to `wiki/projects/active/project-name.md` or create a sub-note.
+3. Deliverables: create `wiki/projects/deliverables/deliverable-name.md`.
+4. Technical findings that could feed into research: note in `wiki/projects/findings/` AND create a link from a `wiki/research/research-ideas/` page.
+5. Update `index.md` under Projects section.
+6. Append to `log.md`.
+7. **NEVER commit anything under `wiki/projects/` to git.**
 
 ### 2. Weekly arXiv Scan (automated)
 
@@ -182,9 +219,9 @@ Steps:
 1. Fetch results for all monitoring keywords.
 2. Deduplicate by arXiv ID.
 3. Score relevance to the 5 core research areas (high / medium / low).
-4. For **high relevance** papers: create a full draft paper page in `wiki/papers/` (mark `has_full_text: false`).
-5. For **medium relevance** papers: create a brief stub entry.
-6. Write a weekly digest to `wiki/outputs/weekly-YYYY-MM-DD.md` — title, authors, one-line summary, relevance tag, arXiv link for each paper.
+4. For **high relevance** papers: create a full draft paper page in `wiki/research/papers/` (mark `has_full_text: false`).
+5. For **medium relevance** papers: create a brief stub entry in `wiki/research/papers/`.
+6. Write a weekly digest to `wiki/research/outputs/weekly-YYYY-MM-DD.md` — title, authors, one-line summary, relevance tag, arXiv link for each paper.
 7. Update `index.md`.
 8. Append to `log.md`:
    ```
@@ -200,7 +237,7 @@ When the user asks to generate research ideas (from a paper, a topic, or from sc
 
 1. Read the relevant paper/topic pages.
 2. Identify: open problems stated in papers, gaps between methods, cross-domain transplants (technique from field A applied to field B), extensions of existing work.
-3. For each promising idea, write a page in `wiki/research-ideas/` following the research idea format.
+3. For each promising idea, write a page in `wiki/research/research-ideas/` following the research idea format.
 4. Update `index.md`.
 5. Report the ideas generated with a brief rationale for each.
 
