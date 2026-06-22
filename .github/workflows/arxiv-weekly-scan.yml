@@ -1,0 +1,66 @@
+name: Weekly arXiv Research Scan
+
+on:
+  schedule:
+    - cron: '0 23 * * 0'  # 매주 월요일 08:00 KST (일요일 23:00 UTC)
+  workflow_dispatch:        # 수동 실행 버튼 (테스트용)
+
+permissions:
+  contents: write
+
+jobs:
+  arxiv-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Claude Code Action Official
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            You are a research wiki assistant for Prof. Kim Sooyoung (Department of Mechanical Systems Engineering, Sookmyung Women's University).
+
+            Today's date: run `date +%Y-%m-%d` to get it.
+
+            Perform the Weekly arXiv Scan (Operation 2 in CLAUDE.md):
+
+            1. Search arXiv API for papers from the past 7 days using these keywords in cs.SY and eess.SY categories:
+               - electrified vehicle control
+               - regenerative braking
+               - vehicle state estimation
+               - adaptive vehicle control
+               - autonomous vehicle control
+               - physics-informed neural networks
+               - intelligent vehicle
+               - energy management
+               - robust control
+               - AI-enabled system
+
+               API URL pattern: https://export.arxiv.org/api/query?search_query=ti:{keyword}+OR+abs:{keyword}&cat=cs.SY+eess.SY&sortBy=submittedDate&sortOrder=descending&max_results=20
+
+            2. Deduplicate by arXiv ID.
+
+            3. Score relevance to the 5 core research areas:
+               - AI-based vehicle control and modeling
+               - Adaptive and personalized control for intelligent vehicle systems
+               - Safety and dynamics control for electrified vehicles
+               - Optimal control for electrified powertrains
+               - Vehicle state and parameter estimation
+
+            4. For HIGH relevance papers: create a full draft paper page in wiki/research/papers/ (has_full_text: false).
+            5. For MEDIUM relevance papers: create a brief stub in wiki/research/papers/.
+            6. Write weekly digest to wiki/research/outputs/weekly-{YYYY-MM-DD}.md (title, authors, one-line summary, relevance tag, arXiv link for each paper).
+            7. Update index.md under the Papers and Outputs sections.
+            8. Append to log.md:
+               ## [{date}] arxiv-scan | Weekly digest {date}
+               - Papers found: N total, X high, Y medium, Z low relevance
+               - Digest: wiki/research/outputs/weekly-{date}.md
+               - Notable: one-sentence highlight
+
+            After completing all file writes, commit and push:
+            git config user.email "arxiv-agent@github-actions"
+            git config user.name "arXiv Weekly Agent"
+            git add wiki/ index.md log.md
+            git commit -m "arxiv-scan: weekly digest {date}"
+            git push
