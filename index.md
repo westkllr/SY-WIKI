@@ -25,7 +25,7 @@
 - [[data-driven-partitioning-energy-management]] — 데이터 기반 파티셔닝을 이용한 EV 에너지 관리 분산 MPC (raw)
 
 ### Outputs / Weekly Digests
-*(none yet)*
+- [[weekly-2026-06-23]] — ⚠️ FAILED: arXiv scan blocked (export.arxiv.org not in network egress allowlist) — action required
 
 ---
 

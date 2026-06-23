@@ -1,5 +1,13 @@
 # Research Wiki Log
 
+## [2026-06-23] arxiv-scan | FAILED — Weekly digest 2026-06-23
+- Status: FAILED — network egress policy blocks export.arxiv.org (and api.semanticscholar.org, api.crossref.org)
+- All 10 keyword queries returned: "Host not in allowlist: export.arxiv.org"
+- Papers found: 0 (scan could not execute)
+- Action required: Add `export.arxiv.org` to the network egress allowlist in Claude Code on the Web environment settings (https://code.claude.com/docs/en/claude-code-on-the-web)
+- Digest: wiki/research/outputs/weekly-2026-06-23.md (failure record)
+- Notable: No papers retrieved — arXiv scan infrastructure fix needed before next run
+
 ## [2026-06-21] restructure | Wiki 3-domain structure (research / teaching / projects)
 - wiki/ reorganized: existing pages moved to wiki/research/
 - New domains: wiki/teaching/ (GitHub 동기화), wiki/projects/ (로컬 전용 — 기밀)
