@@ -60,6 +60,9 @@ Conventional wheel-speed sensors in electric vehicles suffer from quantization e
 - [[noncentralized-mpc]] — Cleaner state estimates could improve distributed MPC for chassis control.
 - Related concept: [[adaptive-vehicle-control]] — Virtual sensor enables reliable low-speed control.
 - Related paper (same venue): [[labib-2026-battery-voltage-dmdc-transformer]] — complementary estimation work for powertrain side.
+- [[habich-2026-pinn-mpc-soft-robot]] — **동일 연구그룹** (Simon Ehlers 공저자, Leibniz Hannover iMeS). DD-PINN 기반 NMPC 논문; Research Idea #2의 PINN-UKF 통합 아이디어와 직접 연결.
+- [[leibniz-imes-group]] — 공저자 소속 연구그룹 페이지; Ehlers의 차량 동역학 PINN 연구(Zeipel et al. 2024) 포함.
+- [[pinn-surrogate-ev-nmpc]] — 이 논문 Research Idea #2를 확장한 EV NMPC 연구 아이디어.
 
 ## Notable Quotes / Figures
 

@@ -1,5 +1,12 @@
 # Research Wiki Log
 
+## [2026-06-24] ingest | Generalizable and Fast Surrogates: MPC of Articulated Soft Robots Using PINNs (Habich et al., IEEE TRO 2026)
+- Paper page: wiki/research/papers/habich-2026-pinn-mpc-soft-robot.md
+- Pages created: wiki/research/concepts/physics-informed-neural-networks.md, wiki/research/authors/leibniz-imes-group.md, wiki/research/research-ideas/pinn-surrogate-ev-nmpc.md
+- Pages updated: schafke-2026-virtual-wheel-speed-sensor.md (Connections 추가), adaptive-partitioning-ev-chassis.md (PINN 결합 가능성 추가), index.md, log.md
+- Research ideas generated: (1) PINN 서로게이트 기반 EV 파워트레인·섀시 NMPC [pinn-surrogate-ev-nmpc]
+- Key insight: DD-PINN이 제1원리 모델 대비 467× 빠른 추론(2 μs)으로 47 Hz NMPC 실현 — EV 섀시·파워트레인 비선형 MPC에 직접 이전 가능; 동일 그룹(Ehlers)이 차량 동역학 PINN 논문(Zeipel et al. TechRxiv 2024) 투고 중으로 후속 ingest 필요
+
 ## [2026-06-23] arxiv-scan | Weekly digest 2026-06-23 — WebSearch 대체 스캔 성공
 - Papers found: 18 total, 6 high, 6 medium, 6 low relevance
 - Digest: wiki/research/outputs/weekly-2026-06-23.md (updated from FAILED to complete)

@@ -2,9 +2,9 @@
 title: "전동화 차량 통합 섀시 제어를 위한 적응형 분산 MPC 파티셔닝"
 type: research-idea
 status: raw
-tags: [MPC, EV, chassis-control, distributed-control, partitioning, adaptive-control]
-inspired_by: [riccardi-2026-noncentralized-mpc-partitioning]
-last_updated: 2026-06-21
+tags: [MPC, EV, chassis-control, distributed-control, partitioning, adaptive-control, PINN]
+inspired_by: [riccardi-2026-noncentralized-mpc-partitioning, habich-2026-pinn-mpc-soft-robot]
+last_updated: 2026-06-24
 ---
 
 ## One-line pitch
@@ -44,3 +44,7 @@ EV의 운전 모드 전환(EV/HEV/회생제동)에 따라 서브시스템 결합
 - 파티션 전환 시 안정성 보장 (Lyapunov 또는 ISS 분석 필요)
 - 예측 호라이즌 내 모드 전환 예측 정확도가 파티셔닝에 미치는 영향
 - 실시간 파티션 전환의 계산 부담 (임베디드 ECU 구현 가능성)
+
+## 연관 아이디어 업데이트 (2026-06-24)
+
+[[habich-2026-pinn-mpc-soft-robot]]의 DD-PINN이 서브시스템 FP 모델을 467× 가속한다는 결과는 이 아이디어의 실시간 실현 가능성을 높임: **각 파티션 서브시스템의 내부 모델을 DD-PINN으로 대체**하면 분산 NMPC의 계산 병목 해소 가능. [[pinn-surrogate-ev-nmpc]]와 결합 고려.
