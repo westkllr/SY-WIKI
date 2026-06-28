@@ -26,6 +26,7 @@
 - [[noncentralized-mpc]] — 비중앙화 MPC (Dec-MPC, DMPC, HMPC, Coal-MPC) 유형 및 개요
 - [[graph-partitioning-control]] — 제어 시스템의 그래프 파티셔닝: 5개 클래스, 멀티-토폴로지 표현
 - [[physics-informed-neural-networks]] — PINN, PINC, DD-PINN 개요 및 제어 시스템 응용
+- [[koopman-operator-control]] — Koopman 연산자 기반 MPC: 기존 MPC 비교, EDMD 학습, 차량 적용 조건
 
 ### Authors
 - [[leibniz-imes-group]] — Leibniz University Hannover iMeS: Habich, Ehlers, Seel, Schappler (PINN 기반 제어·추정)

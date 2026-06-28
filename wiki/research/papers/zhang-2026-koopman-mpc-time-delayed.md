@@ -55,7 +55,7 @@ Koopman operator-based linear MPC on a lifted observable space has emerged as a 
 - [[noncentralized-mpc]] — Koopman MPC could be distributed across chassis subsystems using the partitioning framework from [[riccardi-2026-noncentralized-mpc-partitioning]].
 - [[adaptive-partitioning-ev-chassis]] — Research idea; Koopman lifting + adaptive partitioning for EV chassis is now more feasible with this paper.
 - [[data-driven-partitioning-energy-management]] — Data-driven Koopman for energy management could extend this paper's framework.
-- Related concept (future): `koopman-operator-control`, `robust-mpc`.
+- [[koopman-operator-control]] — 핵심 방법론 개념 페이지 (기존 MPC와 비교, EDMD, 적용 조건 포함).
 - Connects to theme of [[vehicle-state-estimation]] — Koopman state estimation via lifted observables is a natural extension.
 
 ## Notable Quotes / Figures

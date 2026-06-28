@@ -1,5 +1,11 @@
 # Research Wiki Log
 
+## [2026-06-24] concept-expand | Koopman Operator 기반 MPC — 교수님 관심 주제 심화 정리
+- 생성: wiki/research/concepts/koopman-operator-control.md
+- 내용: Koopman 연산자 원리, EDMD 학습 절차, 기존 MPC·NMPC·PINN MPC와 비교표, Zhang(2026) 기여 해설, EV 연구 적용 조건
+- 계기: 교수님이 weekly digest에서 Koopman MPC에 관심 표명; MPC 전문가 / Koopman 생소 수준에 맞춰 작성
+- 업데이트: zhang-2026 Connections에 [[koopman-operator-control]] 링크 추가, index.md 갱신
+
 ## [2026-06-24] delete | lin-2026-ai-power-converter-review
 - 삭제: wiki/research/papers/lin-2026-ai-power-converter-review.md
 - 사유: 교수님 연구 영역(차량 제어·추정·전동화 파워트레인)과 관련도 낮음 — 전력변환기 설계·운용 리뷰
