@@ -116,6 +116,14 @@ last_updated: YYYY-MM-DD
 ---
 ```
 
+Required sections for every concept page:
+- **한 줄 요약** (one-sentence description of what it is)
+- **핵심 원리** (how it works — technical explanation)
+- **교수님 연구 적용 방안** (how this method applies to Prof. Kim's 5 research areas — be specific, not generic)
+- **기존 방법론과 비교** (comparison table with methods Prof. Kim already uses: EKF/UKF for estimation papers; MPC/PI for control papers; physics-based models for data-driven papers)
+- **언제 사용하는가** (when this method is preferable vs. alternatives, including failure conditions)
+- **관련 페이지** (wikilinks)
+
 ### Research Idea Page (`wiki/research/research-ideas/`)
 
 ```yaml
@@ -168,7 +176,12 @@ When the user asks to ingest a paper:
    - Add cross-references
    - Flag contradictions with `> [!warning] Contradiction with [[other-page]]`
    - Strengthen synthesis where this paper confirms existing claims
-5. **Create** missing concept, author, or topic pages under `wiki/research/concepts/`, `wiki/research/authors/`, `wiki/research/topics/`.
+5. **Create** concept pages for every key method or algorithm introduced in the paper, under `wiki/research/concepts/`. Each concept page must include:
+   - How the algorithm works (technically)
+   - **How it can be applied to Prof. Kim's 5 research areas** (specific, not generic)
+   - **Comparison with Prof. Kim's existing methods** (EKF/UKF for estimation; MPC/PI for control; physics-based models for data-driven; use a comparison table)
+   - When to use this method vs. alternatives (including failure conditions)
+   Also create any missing author or topic pages under `wiki/research/authors/`, `wiki/research/topics/`.
 6. **Check** `wiki/research/research-ideas/` — does this paper make any existing idea more feasible or less novel? Update accordingly.
 7. **Update** `index.md`.
 8. **Append** to `log.md`:

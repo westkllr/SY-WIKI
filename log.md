@@ -1,5 +1,16 @@
 # Research Wiki Log
 
+## [2026-06-24] process-update | 개념 페이지 작성 기준 강화 (CLAUDE.md 업데이트)
+- CLAUDE.md Step 5 갱신: 개념 페이지에 (1) 교수님 연구 적용 방안, (2) 기존 방법론 비교표 필수 포함
+- Concept Page 형식에 필수 섹션 추가 (한 줄 요약, 핵심 원리, 교수님 연구 적용, 기존 방법론 비교, 언제 사용)
+- 소급 적용: adaptive-robust-estimation, gaussian-process-regression-control, dynamic-mode-decomposition 생성
+
+## [2026-06-24] concept-expand | 핵심 알고리즘 개념 페이지 3종 소급 생성
+- adaptive-robust-estimation.md (ARC): EKF 대비 이상값 강건성 + 공분산 적응; EV 상태추정 적용
+- gaussian-process-regression-control.md (GPR): 불확실성 정량화 제어; 기존 물리모델+MPC 대비 비교
+- dynamic-mode-decomposition.md (DMDc): 데이터 기반 선형 모델 추출; Koopman 관계, 배터리 ECM 적용
+- 계기: 모든 wiki 업데이트 시 핵심 방법론 개념을 교수님 기존 방법론 비교 포함하여 상세 정리하는 새 지침
+
 ## [2026-06-24] concept-expand | Koopman Operator 기반 MPC — 교수님 관심 주제 심화 정리
 - 생성: wiki/research/concepts/koopman-operator-control.md
 - 내용: Koopman 연산자 원리, EDMD 학습 절차, 기존 MPC·NMPC·PINN MPC와 비교표, Zhang(2026) 기여 해설, EV 연구 적용 조건

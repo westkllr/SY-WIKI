@@ -27,6 +27,9 @@
 - [[graph-partitioning-control]] — 제어 시스템의 그래프 파티셔닝: 5개 클래스, 멀티-토폴로지 표현
 - [[physics-informed-neural-networks]] — PINN, PINC, DD-PINN 개요 및 제어 시스템 응용
 - [[koopman-operator-control]] — Koopman 연산자 기반 MPC: 기존 MPC 비교, EDMD 학습, 차량 적용 조건
+- [[adaptive-robust-estimation]] — ARC: 이상값 강건 + 공분산 온라인 학습 통합 추정기; EKF/UKF 비교
+- [[gaussian-process-regression-control]] — GPR 기반 불확실성 인식 제어: 불확실성 정량화, MPC 결합
+- [[dynamic-mode-decomposition]] — DMDc: 데이터만으로 선형 동역학 모델 추출; Koopman과 관계, 배터리 적용
 
 ### Authors
 - [[leibniz-imes-group]] — Leibniz University Hannover iMeS: Habich, Ehlers, Seel, Schappler (PINN 기반 제어·추정)
