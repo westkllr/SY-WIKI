@@ -18,6 +18,14 @@
 - [[vedula-2026-predictive-energy-hybrid-powertrain]] — 배터리 열화 고려 하이브리드 파워트레인 예측 에너지 관리 (arXiv, 2026)
 - [[he-2026-eco-driving-ev-multi-speed]] — 다단 변속기 EV 에코드라이빙: 속도·기어 동시 최적화, 에너지 11.36% 절감 (arXiv, 2026)
 - [[habich-2026-pinn-mpc-soft-robot]] — DD-PINN 서로게이트(467× 가속)로 실시간 NMPC 실현, 12개 미지 도메인 일반화 (IEEE TRO, 2026) ★HIGH
+- [[wang-2026-pinn-ev-thermal-mpc]] — PINN + MPC 통합 전기차 열관리 예측 제어, 실데이터 오픈 벤치마크 (arXiv / Modelica Conf 2026) ★HIGH
+- [[wang-2026-dbpnet-wheel-load]] — 댐퍼 특성 기반 베이지안 PINN으로 휠 하중 추정 및 불확실성 정량화 (arXiv, 2026) ★HIGH
+- [[faghihian-2026-lyapunov-cacc-ev]] — 회생제동 내재화 Lyapunov 안정적 CACC로 EV 에너지 효율 향상 (IEEE Conf, 2026) ★HIGH
+- [[miao-2026-physics-koopman-ev-trucks]] — Mixture-of-Koopman + 물리 감독으로 분산 전동 트럭 장기 동역학 최첨단 추정 (arXiv, 2026) ★HIGH
+- [[lokur-2026-energy-optimal-thermal-bev]] — 히트펌프 BEV 에너지 최적 열관리: 규칙 기반 + NMPC 하이브리드 제어 (arXiv, 2026)
+- [[ngo-2026-adaptive-mpc-uam-lpv]] — LPV 기반 적응형 MPC로 eVTOL 전 비행 포락선 제어 및 결함 허용 (arXiv, 2026)
+- [[loya-2026-koopman-offroad-vehicle]] — Koopman 연산자로 변형 지형 오프로드 차량 동역학 모델링 및 예측 제어 (arXiv, 2026)
+- [[moyalan-2026-ecm-ev-evacuation]] — ECM 기반 정수 계획법으로 재난 시 EV 피난 경로·이동형 충전소 통합 최적화 (arXiv, 2026)
 
 ### Topics
 *(none yet)*
@@ -43,6 +51,7 @@
 - [[pinn-surrogate-ev-nmpc]] — DD-PINN 서로게이트로 EV 파워트레인·섀시 NMPC 실현 (developing)
 
 ### Outputs / Weekly Digests
+- [[weekly-2026-06-28]] — 2026-06-28 주간 arXiv 소화: 15편 (HIGH 4, MEDIUM 4, LOW 7) — WebSearch 대체 스캔, 회생제동 CACC·Bayesian PINN 상태추정 주목
 - [[weekly-2026-06-23]] — 2026-06-23 주간 arXiv 소화: 18편 (HIGH 6, MEDIUM 6, LOW 6) — WebSearch 대체 스캔 성공
 
 ---

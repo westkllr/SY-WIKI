@@ -1,5 +1,13 @@
 # Research Wiki Log
 
+## [2026-06-28] arxiv-scan | 주간 동향 2026-06-28
+- 발견 논문: 총 15편 (높음 4, 보통 4, 낮음 7)
+- 다이제스트: wiki/research/outputs/weekly-2026-06-28.md
+- 스캔 방식: WebSearch (Google) — arXiv API (export.arxiv.org) 차단 지속
+- 높음 페이지 생성: wang-2026-pinn-ev-thermal-mpc.md, wang-2026-dbpnet-wheel-load.md, faghihian-2026-lyapunov-cacc-ev.md, miao-2026-physics-koopman-ev-trucks.md
+- 보통 페이지 생성: lokur-2026-energy-optimal-thermal-bev.md, ngo-2026-adaptive-mpc-uam-lpv.md, loya-2026-koopman-offroad-vehicle.md, moyalan-2026-ecm-ev-evacuation.md
+- 주목 논문: faghihian-2026-lyapunov-cacc-ev — 회생제동 동역학 내재화 Lyapunov 안정적 CACC, IEEE 학술대회 채택, 교수님 회생제동·적응형 제어·EV 안전 3개 영역 직접 연결
+
 ## [2026-06-24] process-update | 개념 페이지 작성 기준 강화 (CLAUDE.md 업데이트)
 - CLAUDE.md Step 5 갱신: 개념 페이지에 (1) 교수님 연구 적용 방안, (2) 기존 방법론 비교표 필수 포함
 - Concept Page 형식에 필수 섹션 추가 (한 줄 요약, 핵심 원리, 교수님 연구 적용, 기존 방법론 비교, 언제 사용)
