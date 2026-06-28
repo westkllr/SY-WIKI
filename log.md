@@ -1,5 +1,10 @@
 # Research Wiki Log
 
+## [2026-06-24] delete | lin-2026-ai-power-converter-review
+- 삭제: wiki/research/papers/lin-2026-ai-power-converter-review.md
+- 사유: 교수님 연구 영역(차량 제어·추정·전동화 파워트레인)과 관련도 낮음 — 전력변환기 설계·운용 리뷰
+- index.md에서 항목 제거
+
 ## [2026-06-24] ingest | Generalizable and Fast Surrogates: MPC of Articulated Soft Robots Using PINNs (Habich et al., IEEE TRO 2026)
 - Paper page: wiki/research/papers/habich-2026-pinn-mpc-soft-robot.md
 - Pages created: wiki/research/concepts/physics-informed-neural-networks.md, wiki/research/authors/leibniz-imes-group.md, wiki/research/research-ideas/pinn-surrogate-ev-nmpc.md

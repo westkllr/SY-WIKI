@@ -11,10 +11,14 @@
             "id": "682c33f448a64d65",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "wiki/research/papers/sarkar-2026-data-driven-multi-fuel-engine.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "sarkar-2026-data-driven-multi-fuel-engine"
             }
           }
         ]
@@ -177,38 +181,43 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "968b29bc4b3b13bc",
+  "active": "682c33f448a64d65",
   "lastOpenFiles": [
-    "index.md.tmp.33212.c92af55a29c3",
-    "CLAUDE.md.tmp.33212.aaa621710292",
-    "CLAUDE.md.tmp.33212.4d78249e16a1",
-    "CLAUDE.md.tmp.33212.5d135b5f333e",
-    "CLAUDE.md.tmp.33212.02e44dbe6593",
-    "CLAUDE.md.tmp.33212.1f3f9a825294",
-    "CLAUDE.md.tmp.33212.9c8ac8c05e4f",
-    "CLAUDE.md.tmp.33212.a3d5e6a987f2",
+    "log.md.tmp.33300.3ac75633c1f1",
+    "index.md.tmp.33300.e67c032a08a5",
+    "index.md.tmp.33300.0423bd6637e2",
+    "wiki/research/research-ideas/adaptive-partitioning-ev-chassis.md.tmp.33300.46435bca1458",
+    "wiki/research/papers/schafke-2026-virtual-wheel-speed-sensor.md.tmp.33300.6a88e48de264",
+    "wiki/research/authors/leibniz-imes-group.md",
+    "wiki/research/authors/leibniz-imes-group.md.tmp.33300.e5133887701b",
+    "wiki/research/research-ideas/pinn-surrogate-ev-nmpc.md",
+    "wiki/research/research-ideas/pinn-surrogate-ev-nmpc.md.tmp.33300.f56be4e915cd",
+    "wiki/research/concepts/physics-informed-neural-networks.md",
+    "wiki/research/concepts/physics-informed-neural-networks.md.tmp.33300.2d03efc1fcab",
+    "wiki/research/papers/habich-2026-pinn-mpc-soft-robot.md",
+    "wiki/research/papers/habich-2026-pinn-mpc-soft-robot.md.tmp.33300.505f7dbb002f",
+    "wiki/research/outputs/weekly-2026-06-23.md",
     "wiki/research/research-ideas/data-driven-partitioning-energy-management.md",
+    "wiki/research/outputs/weekly-2026-06-23.md.tmp.33300.e5167904dbda",
+    "wiki/research/outputs/weekly-2026-06-23.md.tmp.33300.cb8384d0208c",
+    "wiki/research/papers/zhang-2026-koopman-mpc-time-delayed.md",
+    "wiki/research/papers/vedula-2026-predictive-energy-hybrid-powertrain.md",
+    "wiki/research/papers/schafke-2026-virtual-wheel-speed-sensor.md",
+    "wiki/research/papers/sarkar-2026-data-driven-multi-fuel-engine.md",
+    "wiki/research/papers/rachavelpula-2026-personalized-ev-energy.md",
+    "wiki/research/papers/lin-2026-ai-power-converter-review.md",
+    "wiki/research/papers/labib-2026-battery-voltage-dmdc-transformer.md",
+    "wiki/research/papers/he-2026-eco-driving-ev-multi-speed.md",
+    "wiki/research/papers/hadji-thomas-2026-arc-adaptive-robust-estimation.md",
+    "wiki/research/papers/classens-2026-fault-detection-uncertain.md",
+    "wiki/research/papers/barat-2026-battery-ecm-ensemble-kalman.md",
+    "wiki/research/papers/ashraf-2026-frequency-domain-neural-ode.md",
     "wiki/research/research-ideas/adaptive-partitioning-ev-chassis.md",
-    "wiki/research/concepts/graph-partitioning-control.md",
-    "wiki/research/concepts/noncentralized-mpc.md",
     "wiki/research/papers/riccardi-2026-noncentralized-mpc-partitioning.md",
+    "wiki/research/concepts/noncentralized-mpc.md",
+    "wiki/research/concepts/graph-partitioning-control.md",
     "wiki/research-ideas/data-driven-partitioning-energy-management.md",
     "wiki/research-ideas/adaptive-partitioning-ev-chassis.md",
-    "wiki/research-ideas",
-    "wiki/papers/riccardi-2026-noncentralized-mpc-partitioning.md",
-    "wiki/papers",
-    "wiki/concepts/noncentralized-mpc.md",
-    "wiki/concepts/graph-partitioning-control.md",
-    "wiki/concepts",
-    "CLAUDE.md",
-    "index.md",
-    "log.md",
-    "raw-wiki prompt.md",
-    "wiki/entities/obsidian.md",
-    "wiki/entities/vannevar-bush.md",
-    "wiki/concepts/memex.md",
-    "wiki/concepts/rag.md",
-    "wiki/concepts/raw-wiki-pattern.md",
-    "wiki/sources/raw-wiki-prompt.md"
+    "wiki/papers/riccardi-2026-noncentralized-mpc-partitioning.md"
   ]
 }
